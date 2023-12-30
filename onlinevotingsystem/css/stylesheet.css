@@ -1,0 +1,43 @@
+body{
+    
+    background-color: antiquewhite;
+}
+#imagecss{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 30%;
+}
+#headerSection{
+    padding: 10px;
+
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#dropbox{
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#loginbtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #48dbfb;
+    color: black;
+}
+#registerbtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #48dbfb;
+    color: black;
+    margin: 20px;
+}
+#drop{
+    border-radius: 10px;
+    padding: 5px;
+    width: 50%;
+    margin: 10px;
+}

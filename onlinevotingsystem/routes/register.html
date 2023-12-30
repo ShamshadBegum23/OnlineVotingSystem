@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Voting System-REGISTRATION</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+
+</head>
+<body>
+    <center> 
+    <style>
+        #address{
+            width: 30%;
+        }
+        #imagepart,#role{
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 5px;
+            width: 30%;
+            margin: 10px;
+            
+        }
+
+    </style>
+    <div id="headerSection">
+    <h1>ONLINE VOTING SYSTEM</h1>
+</div>
+    <hr>
+    <div id="bodySection">
+    <h3>REGISTRATION</h3>
+    <form action="../api/register.php" method="POST" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Enter name" >
+        <input type="number" name="mobile" placeholder="Enter mobile" ><br><br>
+        <input type="password" name="password" placeholder="Password" >
+        <input type="password" name="cpassword" placeholder="Confirm Password" ><br><br>
+        
+        <input id="address" type="text" name="address" placeholder="Address"><br><br>
+        <!--input id="address" type="number" name="verification" placeholder="verification CODE"><br><br-->
+      
+        <div id="imagepart" >
+       Upload Image: <input type="file" name="photo" ><br><br></div>
+        
+        <div id="role">
+       Select Your Role: <select name="role">
+            
+            <option value="1">VOTER</option>
+            <option value="2">CANDIDATE</option>
+        </select><br><br>
+        </div>
+        
+        <button id="registerbtn" name="upload">REGISTER</button><br><br>
+        Already user? <a href="../">Login Here</a>
+        </form>
+        </center>
+        </div>
+</body>
+</html>
+
+<!--sudo chown -R your_username:your_username /opt/lampp/htdocs/onlinevotingsystem/uploads
+to remove lock -->

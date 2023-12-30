@@ -1,0 +1,12 @@
+{
+    "name": "saherabi_123/onlinevotingsystem",
+    "description": "A simple application with PHPmyadmin and HTML",
+    "authors": [
+        {
+            "name": "shaik Sahera"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "*"
+    }
+}
